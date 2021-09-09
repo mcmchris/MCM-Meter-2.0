@@ -15,8 +15,8 @@ Se trata de un medidor energético desarrollado entorno al microcontrolador ESP3
 ## Seguir el video tutorial para configurar el Home Assistant
 
 * Recomiendo configurar una IP estática para tu Raspberry Pi en las configuraciones del Router.
-* Datos del **configuration.yaml**:
-
+* Copiar y pegar estos datos en el **configuration.yaml**:
+```
 influxdb:
   host: a0d7b954-influxdb
   port: 8086
@@ -63,5 +63,5 @@ sensor:
       fp:
         friendly_name: "fp"
         value_template: "{{ state_attr('sensor.medidor_ai', 'fp') }}"
-
+```
 
