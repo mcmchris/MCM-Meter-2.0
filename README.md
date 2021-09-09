@@ -1,0 +1,2 @@
+# MCM-Meter-2.0
+Se trata de un medidor energético desarrollado entorno al microcontrolador ESP32 (Adafruit ESP32 Feather) capaz de medir energía en sistemas domésticos monofásicos de 120 o 240 voltios (fase partida) monitoreando dos potenciales con un solo medidor de corriente (CT no invasivo) y un sensor de voltaje (PT), la información capturada se transmite a un servidor montado en una Raspberry Pi con Home Assistant que te permitirá monitorear los datos en tiempo real, desde un ordenador o teléfono móvil desde cualquier lugar del mundo.
