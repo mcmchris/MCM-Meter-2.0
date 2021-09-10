@@ -5,7 +5,7 @@ Se trata de un medidor energético desarrollado entorno al microcontrolador ESP3
 It is an energy meter developed around the ESP32 microcontroller (Adafruit ESP32 Feather) capable of measuring energy in 120 or 240 volt single-phase domestic systems (split phase) monitoring two potentials with a single current meter (non-invasive CT) and a voltage sensor (PT), the information captured is transmitted to a server mounted on a Raspberry Pi with Home Assistant that will allow you to monitor the data in real time, from a computer or mobile phone from anywhere in the world.
 
 ## Instrucciones para preparar el entorno de trabajo:
-* Instalar el IDE de [Arduino](https://www.arduino.cc/en/software)
+* Instalar el [IDE de Arduino](https://www.arduino.cc/en/software)
 * Instalar el paquete de tarjetas del ESP32 copiando este URL en preferencias del IDE: https://dl.espressif.com/dl/package_esp32_index.json
 * Desplegar tu servidor en Home Assistant, [Tutorial](https://youtu.be/gT-4OKOa-1c)
 * Clonar este repositorio
@@ -17,9 +17,9 @@ It is an energy meter developed around the ESP32 microcontroller (Adafruit ESP32
 
 ## English
 ## Instructions to prepare the work environment:
-* Install the [Arduino] IDE (https://www.arduino.cc/en/software)
+* Install the [Arduino IDE](https://www.arduino.cc/en/software)
 * Install the ESP32 card package by copying this URL in IDE preferences: https://dl.espressif.com/dl/package_esp32_index.json
-* Deploy your server in Home Assistant, [Tutorial] (https://youtu.be/gT-4OKOa-1c)
+* Deploy your server in Home Assistant, [Tutorial](https://youtu.be/gT-4OKOa-1c)
 * Clone this repository
 * Install the attached ZIP libraries
 * Open the Arduino code
